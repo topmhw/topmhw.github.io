@@ -1,0 +1,63 @@
+# Basic
+title: 纯洁的小林
+subtitle: 个人站
+description: 生活本无趣 但跑起来有风
+# 头像里面的标题
+avatarTitle: topmhw
+# 头像里面的描述
+avatarDesc:呈私记
+url: "http://topmhw.github.io"
+
+# Comment
+comment:
+    # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    github: topmhw
+    # zhihu: panpanleopard
+    # juejin: xxx
+    # twitter:
+    mail: topmhw@163.com
+
+
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+baidu:
+    id: de840bbd526b31c59285a8e10d06df70
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 纯洁的小林
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于我, description: about, url: '/about'}
+
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
