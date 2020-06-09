@@ -1,9 +1,6 @@
 <section class="footer">
     <footer>
         <div class = "footer_div">
-    
-        </div>
-        <div class = "footer_div">
            <p class="copyright text-muted">
              Theme by <a href="http://leopardpan.github.io/">leopardpan</a> |
             <iframe
@@ -14,21 +11,20 @@
             </p>
         	<div align="right">
     			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-          <!-- 访问统计 -->
+            </div>
+          <!-- 访问统计 
           <span id="busuanzi_container_site_pv">
             本站总访问量
             <span id="busuanzi_value_site_pv"></span>次
           </span>
-
-        </div>
+-->
              <div class="site-footer-links mobile-hidden">
                    {% for nav in site.labels %}
                    <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
                    {% endfor %}
                </div>
                <div class="site-footer-icons">
-                      <a href="http://beian.miit.gov.cn" ><center>浙ICP备20019463号</center></a>
+                      <a href="http://beian.miit.gov.cn" >浙ICP备20019463号</a>
                </div>
                <div class="scrolltop">
                    <a href="javascript:window.scrollTo(0,0)" >TOP</a>
