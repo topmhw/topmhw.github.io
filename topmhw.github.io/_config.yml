@@ -1,0 +1,301 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 纯洁的小林 
+subtitle: 学无止境，永攀高峰
+name: ChenRongの博客 
+email: 20162005077@m.scnu.edu.cn
+description: 本站是陈荣的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud等相关的研究与知识分享。
+keywords: 陈荣,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,生活故事,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
+encoding: "utf-8"
+favicon: favicon.ico 
+
+repository: chenrong108/chenrong108.github.io
+github_url: https://github.com/chenrong108
+url: https://www.chenrong.xyz
+enforce_ssl:
+
+## Gem
+plugins:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+  syntax_highlighter: rouge
+
+syntax_highlighter_opts:
+   coderay_line_numbers:  nil
+
+# Pagination
+paginate: 12
+paginate_path: 'page:num'
+
+# Navigation. top menu list
+menus:
+
+  # -
+  #   href: /python.html
+  #   label: Python  
+  #   target: _self
+
+  # -
+  #   href: /it.html
+  #   label: IT
+  #   target: _self
+
+  # -
+  #   href: /zsxq.html
+  #   label: 星球
+  #   target: _self   
+
+  # -
+  #   href: /life.html
+  #   label: 故事
+  #   target: _self
+
+  # -
+  #   href: /arch.html
+  #   label: 架构
+  #   target: _self
+
+  -
+    href: /link.html
+    label: 友链
+    target: _self
+
+  -
+    href: /about.html
+    label: 关于
+    target: _self
+
+
+# Navigation. main menu list
+navs:
+
+  -
+    href: /
+    label: Home
+
+  # -
+  #   href: /spring-boot.html
+  #   label: Spring Boot
+  #   target: _self
+  #   subnav:
+
+  #     -
+  #       subHref: /spring-boot.html
+  #       subLabel: Spring Boot
+
+  #     -
+  #       subHref: /spring-cloud.html
+  #       subLabel: Spring Cloud
+
+  -
+    href: /springboot.html
+    label: Spring Boot
+    target: _self
+
+  -
+    href: /springcloud.html
+    label: Spring Cloud
+    target: _self
+
+  -
+    href: /algorithm.html
+    label: Algorithm
+    target: _self
+
+  -
+    href: /archives.html
+    label: Archives
+    target: _self
+
+  -
+    href: /java.html
+    label: Java
+    target: _self
+
+
+# labels. my blog key words
+labels:
+
+  -
+    href: /java-basic.html
+    label: Java基础     
+    target: _self
+
+  -
+    href: /jvm.html
+    label: JVM
+    target: _self
+
+  -
+    href: /database.html
+    label: 数据库
+    target: _self
+
+  -
+    href: /redis.html
+    label: Redis
+    target: _self
+
+  -
+    href: /tool.html
+    label: 工具
+    target: _self
+
+  -
+    href: /unit-test.html
+    label: 单元测试
+    target: _self
+
+  -
+    href: /collection.html
+    label: 集合
+    target: _self
+
+  -
+    href: /multithread.html
+    label: 多线程
+    target: _self
+
+  -
+    href: /Spring.html
+    label: Spring
+    target: _self
+  -
+    href: /network.html
+    label: 网络
+    target: _self
+
+  -
+    href: /log.html
+    label: 日志
+    target: _self
+
+  -
+    href: /message.html
+    label: 消息队列
+    target: _self
+
+  -
+    href: /design-pattern.html
+    label: 设计模式
+    target: _self
+    
+  -
+    href: /life.html
+    label: 故事
+    target: _self
+
+  # -
+  #   href: /open-source.html
+  #   label: Code  
+  #   target: _blank
+
+  # -
+  #   href: /gitchat.html
+  #   label: Chat
+  #   target: _blank
+
+  # -
+  #   href: /geektime.html
+  #   label: 极客
+  #   target: _blank
+
+
+# selected articles
+classes:
+
+  -
+    href: /java-basic.html
+    name: Java基础
+    describe: 追求扎实的Java基础
+
+  -
+    href: /jvm.html
+    name: JVM
+    describe: 窥探Java虚拟机的真谛
+
+  -
+    href: /database.html
+    name: 数据库
+    describe: 探索数据存储的奥秘
+    
+  -
+    href: /algorithm.html
+    name: 算法
+    describe: 追求算法的极致效率
+
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+# subscribe_rss: /feed.xml
+
+# Sidebar to show popular repo
+# side_bar_repo_limit: 6 # Number of repos to show
+
+# Google Analytics
+# analytics :
+# provider : google
+#   google :
+#     tracking_id : ''  # ex. UA-72165600-X
+
+
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
+skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
+skill_mobile_app_keywords: [vuejs, hyhird app]
+
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+# disqus:
+#     username: chenrong108
+# https://imsun.net/posts/gitment-introduction/
+#gitment:
+#     owner: chenrong108
+#     repo: chenrong108.github.io
+#     oauth:
+#         client_id: 676e603470dbb3a1685e
+#         client_secret: 1bc8ba67ee3a9aca37f005b932b4ba5e3c087962
+# https://github.com/gitalk/gitalk#install
+gitalk:
+     owner: chenrong108
+     repo: blog-comments
+     clientID: 676e603470dbb3a1685e
+     clientSecret: 1bc8ba67ee3a9aca37f005b932b4ba5e3c087962
+# 在使用其它评论组件时可点击显示 Disqus
+#lazy_load_disqus : true
+# theme: jekyll-theme-cayman
+
