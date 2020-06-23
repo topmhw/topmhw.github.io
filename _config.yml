@@ -198,6 +198,6 @@ comments_provider: gitalk
 gitalk:
      owner: topmhw
      repo: blog-comments
-     clientID: b4c9f27dc89f5006ce50
-     clientSecret: b376495b7ccaf24dfeda16b44b95e6cc0fb156e7
+     clientID: 0c612ae07512ed82b6fd
+     clientSecret: 0c09cf8cabc29475a905baeedc8d596ad0cbf4c8
 # 在使用其它评论组件时可点击显示 Disqus
