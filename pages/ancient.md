@@ -2,16 +2,12 @@
 layout: page
 title: ancient
 titlebar: ancient
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Resource Ancient
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; ancient
 menu: ancient
 css: ['blog-page.css']
 permalink: /ancient
 ---
 
-## 古文风
-
-- 古风的楼层
-- 词曲的楼层
 <div class="row">
 
     <div class="col-md-12">
