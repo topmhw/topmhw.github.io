@@ -1,13 +1,13 @@
-
-
 ---
 layout: post
 title: WindowsDefender防火墙无法更改某些设置
 date: 2020-10-15
 category: multimedia
 tags: [multimedia]
-  
+excerpt: 打开防火墙
 ---
+
+
 ### 手贱系列，本人不小心手欠按到了破解器上面的“一键禁止Windows defenders”的按钮，无法恢复。导致防火墙整个被禁止掉了，进“服务”页面里面也无法开启。具体表现如下：
 
 ---
