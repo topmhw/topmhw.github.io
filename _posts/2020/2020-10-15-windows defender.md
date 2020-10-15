@@ -2,7 +2,7 @@
 
 ---
 layout: post
-title: WindowsDefender防火墙无法更改某些设置，错误代码0x80070422
+title: WindowsDefender防火墙无法更改某些设置
 date: 2020-10-15
 category: multimedia
 tags: [multimedia]
