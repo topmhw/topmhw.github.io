@@ -2,10 +2,9 @@
 layout: post
 title: 最全图片格式解说，看完才知道它们之间的区别！
 category: multimedia
-tags: [multimedia]   
+tags: [multimedia]  
+excerpt: 图片格式解说
 ---
-
-图片格式解说
 
 
 ### 日常我们最常见的各类图片格式大体有：JPEG、TIFF、RAW、DNG、PNG、GIF、BMP、PSD。
