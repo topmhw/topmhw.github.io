@@ -47,9 +47,11 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
+    ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     forwardable-extended (2.6.0)
     geo_pattern (1.2.1)
@@ -104,11 +106,14 @@ GEM
     mercenary (0.3.6)
     middleware (0.1.0)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.8.0)
     minitest (5.14.1)
     multipart-post (2.1.1)
-    nokogiri (1.10.9-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    nokogiri (1.13.4-x64-mingw32)
+      racc (~> 1.4)
     octicons (10.0.0)
       nokogiri (>= 1.6.3.1)
     octokit (4.18.0)
@@ -122,6 +127,7 @@ GEM
       thor
       thread_safe
     public_suffix (4.0.5)
+    racc (1.6.0)
     rack (1.6.13)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -159,6 +165,8 @@ GEM
       protobuf (>= 3.4)
       rails (~> 4.1)
     safe_yaml (1.0.5)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sawyer (0.8.2)
@@ -180,6 +188,7 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
