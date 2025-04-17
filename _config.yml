@@ -1,0 +1,204 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:  纯洁的小林
+subtitle: 生活本无趣 但跑起来有风
+name: 纯洁的小林 
+email: topmhw@163.com
+description: 呈私记
+keywords: topmhw,纯洁的小林,
+encoding: "utf-8"
+favicon: favicon.ico 
+
+repository: topmhw/topmhw.github.io
+github_url: https://github.com/topmhw
+url: http://www.topmhw.com
+enforce_ssl: topmhw.com
+
+## Gem
+plugins:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+  syntax_highlighter: rouge
+
+syntax_highlighter_opts:
+   coderay_line_numbers:  nil
+
+# Pagination
+paginate: 12
+paginate_path: 'page:num'
+
+# Navigation. top menu list
+menus:
+
+
+  -
+    href: /thing.html
+    label: 搞点人的东西
+    target: _self  
+
+  -
+    href: /spirit.html
+    label: 神度
+    target: _self
+
+  -
+    href: /note.html
+    label: 笔记
+    target: _self
+
+  -
+    href: /grade.html
+    label: grade
+    target: _self
+
+  -
+    href: /ancient.html
+    label: 顾文风
+    target: _self
+
+  -
+    href: /about.html
+    label: 关于
+    target: _self
+
+# Navigation. main menu list
+navs:
+
+  -
+    href: /
+    label: Home
+    
+  -
+    href: /software.html
+    label: 软件
+    target: _self
+
+  -
+    href: /hardware.html
+    label: 硬件
+    target: _self
+
+  -
+    href: /multimedia.html
+    label: 多媒体
+    target: _self
+
+  -
+    href: /archives.html
+    label: Archives
+    target: _self
+
+
+
+# labels. my blog key words
+labels:
+
+  -
+    href: /java-based.html
+    label: Java基础    
+    target: _blank
+
+  -
+    href: /database.html
+    label: 数据库
+    target: _blank
+
+  -
+    href: /redis.html
+    label: Redis
+    target: _blank
+
+  -
+    href: /tool.html
+    label: 工具
+    target: _blank
+
+  -
+    href: /Collection.html
+    label: 集合  
+    target: _blank
+
+  -
+    href: /spring.html
+    label: Spring
+    target: _blank
+
+
+# selected articles
+classes:
+
+  -
+    href: /miss.html
+    name: 少念
+    describe: 在水一方
+
+  -
+    href: /stubborn.html
+    name: 骚年
+    describe: 我心匪石
+
+  -
+    href: /split.html
+    name: 分裂
+    describe: 延伸
+
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 6 # Number of repos to show
+
+# Google Analytics
+# analytics :
+# provider : google
+#   google :
+#     tracking_id : ''  # ex. UA-72165600-X
+
+
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
+skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
+skill_mobile_app_keywords: [vuejs, hyhird app]
+
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+
+gitalk:
+     owner: topmhw
+     repo: blog-comments
+     clientID: 0c612ae07512ed82b6fd
+     clientSecret: 0c09cf8cabc29475a905baeedc8d596ad0cbf4c8
+# 在使用其它评论组件时可点击显示 Disqus
