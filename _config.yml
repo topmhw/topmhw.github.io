@@ -17,8 +17,8 @@ favicon: favicon.ico
 
 repository: topmhw/topmhw.github.io
 github_url: https://github.com/topmhw
-url: http://www.topmhw.com
-enforce_ssl: topmhw.com
+url: http://www.topxld.xyz
+enforce_ssl: topxld.xyz
 
 ## Gem
 plugins:
