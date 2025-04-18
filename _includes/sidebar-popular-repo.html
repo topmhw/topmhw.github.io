@@ -13,7 +13,7 @@
   </ul>
 </div>
 
-<h3 class="sidebar-title">一道走来</h3>
+<h3 class="sidebar-title">项目1</h3>
 
 {% for article in site.classes  %}
 <div class="card text-center">
@@ -35,7 +35,7 @@
 {% endfor %}
 
 <br/>
-<h3 class="sidebar-title">分享</h3>
+<h3 class="sidebar-title">项目2</h3>
 {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse | where: "fork", "false" %}
 {% for repo in sorted_repos | limit: site.side_bar_repo_limit %}
 <div class="card text-center">
