@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  纯洁的小林
-subtitle: 生活本无趣 但跑起来有风
-name: 纯洁的小林 
-email: topmhw@163.com
+title:  喜来登形体美康复塑形
+subtitle: 中国著名品牌
+name: 喜来登形体美康复塑形
+email: m422375104@163.com
 description: 呈私记
-keywords: topmhw,纯洁的小林,
+keywords: topxld,喜来登形体美康复塑形,
 encoding: "utf-8"
 favicon: favicon.ico 
 
@@ -57,27 +57,27 @@ menus:
 
   -
     href: /thing.html
-    label: 搞点人的东西
+    label: 宣传
     target: _self  
 
   -
     href: /spirit.html
-    label: 神度
+    label: 案例
     target: _self
 
   -
     href: /note.html
-    label: 笔记
+    label: 风采
     target: _self
 
   -
     href: /grade.html
-    label: grade
+    label: 故事
     target: _self
 
   -
     href: /ancient.html
-    label: 顾文风
+    label: 健康知识
     target: _self
 
   -
@@ -94,22 +94,22 @@ navs:
     
   -
     href: /software.html
-    label: 软件
+    label: 测试1
     target: _self
 
   -
     href: /hardware.html
-    label: 硬件
+    label: 测试2
     target: _self
 
   -
     href: /multimedia.html
-    label: 多媒体
+    label: 测试3
     target: _self
 
   -
     href: /archives.html
-    label: Archives
+    label: 测试4
     target: _self
 
 
@@ -196,7 +196,7 @@ skill_mobile_app_keywords: [vuejs, hyhird app]
 comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 
-gitalk:
+#gitalk:
      owner: topmhw
      repo: blog-comments
      clientID: 0c612ae07512ed82b6fd
